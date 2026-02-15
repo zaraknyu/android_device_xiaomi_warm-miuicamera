@@ -14,7 +14,9 @@ CAMERA_PACKAGE_NAME := com.android.camera
 
 BUILD_BROKEN_DUP_RULES := true
 
-TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
+SOONG_CONFIG_NAMESPACES += camera
+SOONG_CONFIG_camera += override_format_from_reserved
+SOONG_CONFIG_camera_override_format_from_reserved := true
 TARGET_CAMERA_USES_NEWER_HIDL_OVERRIDE_FORMAT = true
 TARGET_INCLUDES_MIUI_CAMERA := true
 TARGET_USES_MIUI_CAMERA := true
