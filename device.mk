@@ -5,7 +5,7 @@
 #
 
 # Inherit from the proprietary version
-$(call inherit-product, vendor/xiaomi/peridot-miuicamera/peridot-miuicamera-vendor.mk)
+$(call inherit-product, vendor/xiaomi/warm-miuicamera/warm-miuicamera-vendor.mk)
 
 # Miuicamera
 PRODUCT_PACKAGES += \

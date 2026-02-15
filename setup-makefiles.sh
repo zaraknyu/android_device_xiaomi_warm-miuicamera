@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=peridot-miuicamera
+DEVICE=warm-miuicamera
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
